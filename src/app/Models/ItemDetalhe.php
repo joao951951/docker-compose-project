@@ -10,6 +10,6 @@ class ItemDetalhe extends Model
     protected $fillable = ['produto_id', 'comprimento', 'largura', 'altura', 'unidade_id'];
 
     public function item() {
-        return $this->belongsTo('App\Item', 'produto_id', 'id');
+        return $this->belongsTo('App\Models\Item', 'produto_id', 'id');
     }
 }
