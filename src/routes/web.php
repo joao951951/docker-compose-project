@@ -35,10 +35,10 @@ Route::middleware('autenticacao:padrao,visitante,p3,p4')->prefix('/app')->group(
     Route::get('/fornecedor/excluir/{id}', [FornecedorController::class, 'excluir'])->name('app.fornecedor.excluir');
     
     //produtos
-    Route::resource('produto', [ProdutoController::class]);
+    // Route::resource('produto', [ProdutoController::class]);
 
     //produtos detalhes
-    Route::resource('produto-detalhe', [ProdutoDetalheController::class]);
+    // Route::resource('produto-detalhe', [ProdutoDetalheController::class]);
 
     Route::resource('cliente', [ClienteController::class]);
     Route::resource('pedido', [PedidoController::class]);
