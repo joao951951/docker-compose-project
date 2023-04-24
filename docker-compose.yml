@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 networks:
   laravel:
@@ -28,9 +28,9 @@ services:
       - "9306:3306"
     environment: 
       MYSQL_DATABASE: laravel_db
-      MYSQL_USER: joao
-      MYSQL_PASSWORD: 159159
-      MYSQL_ROOT_PASSWORD: 159159
+      MYSQL_USER: laravel_db
+      MYSQL_PASSWORD: 123456789
+      MYSQL_ROOT_PASSWORD: 123456789
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks: 
@@ -62,7 +62,7 @@ services:
       - laravel
   
   npm: 
-    image: node:18.16
+    image: node:13.7
     container_name: npm_laravel
     volumes: 
       - ./src:/var/www/html
