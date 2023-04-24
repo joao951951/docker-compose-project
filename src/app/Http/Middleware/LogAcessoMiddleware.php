@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use App\LogAcesso;
+use App\Models\LogAcesso;
 
 class LogAcessoMiddleware
 {
