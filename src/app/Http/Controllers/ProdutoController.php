@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Produto;
-use App\Item;
-use App\ProdutoDetalhe;
-use App\Unidade;
-use App\Fornecedor;
+use App\Models\Produto;
+use App\Models\Item;
+use App\Models\ProdutoDetalhe;
+use App\Models\Unidade;
+use App\Models\Fornecedor;
 use Illuminate\Http\Request;
 
 class ProdutoController extends Controller

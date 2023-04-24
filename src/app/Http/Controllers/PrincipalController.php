@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\MotivoContato;
+use App\Models\MotivoContato;
 
 class PrincipalController extends Controller
 {

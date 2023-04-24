@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Pedido;
-use App\Cliente;
+use App\Models\Pedido;
+use App\Models\Cliente;
 
 class PedidoController extends Controller
 {

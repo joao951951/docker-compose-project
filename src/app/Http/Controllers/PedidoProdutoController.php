@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Pedido;
-use App\Produto;
-use App\PedidoProduto;
+use App\Models\Pedido;
+use App\Models\Produto;
+use App\Models\PedidoProduto;
 
 class PedidoProdutoController extends Controller
 {
